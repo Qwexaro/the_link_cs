@@ -1,11 +1,3 @@
 ﻿using tasks;
 
-class Program
-{
-    static void Main()
-    {
-        Task1.Sol1();
-
-        Task1.Sol2();
-    }
-}
+class Program { static void Main() { Tasks.Sol1(); Tasks.Sol2(); } }
