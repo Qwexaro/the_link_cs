@@ -14,6 +14,7 @@ class Program
 
         // Задача 3
 
-        new List<Product>().InitProductList().Where(x => x.getCategory() == 1).OrderBy(x => x.getPrice() > 2.0).WriteListProducts();
+        new List<Product>().InitProductList()
+            .Where(x => x.getCategory() == 1 && x.getPrice() > 2.0).OrderBy(x => x.getPrice()).WriteListProducts();
     } 
 }
