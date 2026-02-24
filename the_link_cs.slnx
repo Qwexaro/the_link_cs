@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="tasks/tasks.csproj" />
+  <Project Path="the_link_cs/the_link_cs.csproj" />
+</Solution>
